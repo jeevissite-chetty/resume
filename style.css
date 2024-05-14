@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    background:rgba(176, 176, 249, 0.7);
+    font-family: 'EB Garamond', serif;
+}
+                 
+               /*   Profile Name   */
+.title{
+    color: rgba(0,0,0,0.8);
+    background:rgba(221, 186, 103, 0.5);
+    text-align: center;
+    height: 6rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+}
+.title p{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+                  /*  Profile Layout  */
+.intro{
+    height: 10rem;
+    width: 100%;
+}
+.intro pre{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.profile{
+    font-size: 2rem;
+    text-align: center;
+}
+.profile::after{
+    content:'';
+    background: #ffffff;
+    height: 2px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.intro p{
+    font-size: 1rem;
+    margin-top: 1px;
+    padding: 0 25%; 
+}
+
+                       /*  Contact Details  */
+
+.contact{
+    text-align: right;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+                        /*  Educational qualification  */
+
+.center{
+    display: flex;
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+.center h3{
+    font-size: 2rem;
+    padding: 1rem 1rem;
+}
+.center ul li{
+    font-size: 1.5rem;
+}
+.center ul li::before{
+    content: '⚛️';
+    color: rgb(229, 107, 147);
+    padding: 0 12px;
+}
+.qualification span{
+    font-size: 1.2rem;
+    color: rgba(204, 24, 84, 0.6);
+    padding: 0.5rem 3rem;
+}
+.fa-star{
+    color: rgba(204, 24, 84, 0.6);
+}
+.lang h3{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.lang ul li{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.english::after{
+    content: '★★★★★';
+    color: rgba(204, 24, 84, 0.6);
+    padding: 1rem 1.5rem;
+}
+.tamil::after{
+    content: '★★★★★';
+    color: rgba(204, 24, 84, 0.6);
+    padding: 1rem 1.5rem;
+}
+.telugu::after{
+    content: '★★★★☆';
+    color: rgba(204, 24, 84, 0.6);
+    padding: 1rem 1.5rem;
+}
+.hindi::after{
+    content: '★★☆☆☆';
+    color: rgba(204, 24, 84, 0.6);
+    padding: 1rem 1.5rem;
+}
